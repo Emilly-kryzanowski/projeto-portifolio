@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 case 'IMG-20240206-WA0051':
                 case 'IMG-20240206-WA0053':
                 case 'IMG-20240206-WA0054':
-                    html.style.setProperty('--main-bg-color', 'linear-gradient(180deg, #361f75 0%, #041832 48.44%, #01080E 100%)');
+                    html.style.setProperty('--main-bg-color', 'linear-gradient(180deg, #1c63e7 0%, #041832 48.44%, #01080E 100%)');
                     break;
 
                 case 'IMG-20240206-WA0055':
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 case 'IMG-20240206-WA0042':
                 case 'IMG-20240206-WA0044':
                 case 'IMG-20240206-WA0056':
-                    html.style.setProperty('--main-bg-color', 'linear-gradient(180deg, #3b0b68 0%, #041832 48.44%, #01080E 100%)');
+                    html.style.setProperty('--main-bg-color', 'linear-gradient(180deg, #095522 0%, #041832 48.44%, #01080E 100%)');
                     break;
 
                 case 'IMG-20240206-WA0048':
