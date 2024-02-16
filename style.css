@@ -251,7 +251,7 @@ h1 {
     
     .section-card_container {
         width: 100%;
-        top: 65%;
+        top: 62%;
         left: 50%;
         transform: translateX(-50%) scale(0.7);
         text-align: center;
