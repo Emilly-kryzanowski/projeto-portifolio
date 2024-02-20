@@ -40,11 +40,9 @@ html {
 }
 
 body {
-    height: 100vh;
     background: url("./imagens/pattern.png");
     background-size: cover;
     background-repeat: no-repeat;
-    overflow-y: auto;
     font-family: Montserrat, sans-serif;
 }
 
@@ -58,6 +56,7 @@ body {
 .left-section, 
 .right-section {
     flex: 1;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,12 +75,9 @@ body {
 
 h1 {
     font-size: 1.3rem;
-    margin: 0 auto;
     width: 50%;
-    font-family: Montserrat;
     text-transform: uppercase;
     font-weight: 500;
-    min-height: auto;
 }
 
 .img-dev {
@@ -125,6 +121,7 @@ h1 {
 .presentation_banner-container {
     position: absolute;
     display: flex;
+    width: 90rem;
     flex-direction: column;
     top: 15%;
     left: 2%;
@@ -214,9 +211,13 @@ h1 {
 }
 
 @media (max-width: 767px) {
-    h1, 
+    h1 {
+        font-size: 0.6rem;
+        width: 54%;
+    }
+
     .cabecalho_menu_link {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     
     .img-dev__retrato {
