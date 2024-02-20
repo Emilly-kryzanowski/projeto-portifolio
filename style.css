@@ -160,21 +160,18 @@ h1 {
 }
 
 .section-card_container {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: center;
 }    
 
 .section__card {
     border-radius: 1.2rem;
     border: 0.2rem solid #351469;
     background: #1b1919a6;
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    margin: 10px;
-    padding: 10px;
+    padding: 0.8rem;
+    margin: 8rem 0;
+    width: 59rem;
+    max-width: 90%;
 }
 
 .section__card-list {
@@ -193,17 +190,16 @@ h1 {
 }
 
 .section__card-button {
-    font-size: 0.8rem;
-    font-weight: 300;
-    line-height: 30%;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%;
     background: #1d1b1b;
-    border-radius: 0.4rem;
     padding: 0.8rem;
     color: #f0eaea;
     border: none;
     cursor: pointer;
     outline: inherit;
-    white-space: normal;
 }
 
 .section__card-button:active {
