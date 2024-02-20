@@ -209,12 +209,13 @@ h1 {
 }
 
 .rodape {
+    position: fixed;
     display: flex;
     width: 100%;
-    padding: 2.8rem 6rem;
+    padding: 2rem 1rem;
     justify-content: center;
     align-items: center;
-    background: #010B15;
+    background: #001b35;
 }
 
 .rodape-text {
