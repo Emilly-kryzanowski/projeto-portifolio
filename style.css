@@ -48,6 +48,12 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+h1 {
+    font-size: 1.3rem;
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 .container {
     display: flex;
@@ -73,13 +79,6 @@ body {
 .right-section {
     background-color: var(--gray-right);
     color: var(--black-left);
-}
-
-h1 {
-    font-size: 1.3rem;
-    width: 50%;
-    text-transform: uppercase;
-    font-weight: 500;
 }
 
 .img-dev {
