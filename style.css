@@ -129,6 +129,12 @@ h1 {
     right: 2%;
 }
 
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .presentation_title {
     font-size: 1.4rem;
     font-weight: 600;
@@ -136,6 +142,7 @@ h1 {
     color: #ece6e6;
     word-wrap: break-word;
     margin: 1.5rem;
+    width: 50%;
 }
 
 .presentation_title-strong {
@@ -163,6 +170,7 @@ h1 {
 .section-card_container {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }    
 
 .section__card {
