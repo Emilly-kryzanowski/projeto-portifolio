@@ -1,6 +1,6 @@
 :root {
     --black-left: #000000;
-    --gray-right: #8169a9;
+    --gray-right: #765f83;
     --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
 }
 
@@ -37,7 +37,6 @@
 html {
     background: var(--main-bg-color);
     min-height: 100vh;
-    font-size: 10px;
 }
 
 body {
@@ -187,7 +186,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.6rem;
+    gap: 1.3rem;
     flex-wrap: wrap;
 }
 
@@ -195,9 +194,9 @@ h1 {
     font-size: 1rem;
     font-style: normal;
     font-weight: 100;
-    line-height: 150%;
+    line-height: 100%;
     background: #1d1b1b;
-    padding: 0.8rem;
+    padding: 0.6rem;
     color: #f0eaea;
     border: none;
     cursor: pointer;
@@ -212,20 +211,20 @@ h1 {
 .rodape {
     display: flex;
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     justify-content: center;
     align-items: center;
     background: #001b35;
 }
 
 .rodape-text {
-    color: rgba(182, 182, 182, 0.8);
+    color: #b3b3b3;
     text-align: center;
     font-family: Montserrat;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 @media (max-width: 767px) {
@@ -246,97 +245,42 @@ h1 {
 
     .presentation_banner-container {
         width: 100%;
-        top: 8%;
-        left: 3%;
+        padding: 10% 5%;
+    }
+
+    .banner-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .presentation_title {
-        font-size: 0.8rem;
-        text-align: left;
-    }
-
-    .presentation_title-strong {
-        font-size: 0.4rem;
+        width: 100%;
+        transform: scale(0.8);
     }
 
     .presentation_image-figure {
-        position: absolute;
-        width: 100%;
-        max-width: 200px;
-        top: 105%;
-        left: 50%;
-        transform: translateX(-50%);
+        margin: 1rem 0;
+    }
+
+    .presentation_image {
+        max-width: 70%;
     }
     
     .section-card_container {
-        width: 100%;
-        top: 62%;
-        left: 50%;
-        transform: translateX(-50%) scale(0.7);
-        text-align: center;
-        max-width: 380px;
-}
+        transform: scale(0.8);
+        margin-top: 1rem;
+    }
 
     .section__card {
-        width: 100%;
-    }
-
-    .section__card-list-item {
-        margin: 0.3rem;
+        margin: 2rem 0;
     }
 
     .section__card-button {
         font-size: 0.6rem;
-        line-height: 0.8rem;
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    h1, 
-    .cabecalho_menu_link {
-        font-size: 0.6rem;
-    }
-    
-    .img-dev__retrato {
-        width: 80px;
-        height: 80px;
-        max-width: 80px;
     }
 
-    .presentation_banner-container {
-        width: 100%;
-        top: 15%;
-    }
-
-    .presentation_title {
-        font-size: 1rem;
-        text-align: left;
-    }
-
-    .presentation_title-strong {
-        font-size: 0.6rem;
-    }
-
-    .presentation_image-figure {
-        width: 280px;
-        right: 70px;
-    }
-    
-    .section-card_container {
-        position: absolute;
-        width: 100%;
-        top: 60%;
-        left: 50%;
-        transform: translateX(-50%);
-        text-align: center;
-        max-width: 680px;
-    }
-
-    .section__card-button {
-        width: 100%;
+    .rodape {
         font-size: 0.8rem;
-        padding: 1rem;
-        line-height: 10%;
     }
 }
